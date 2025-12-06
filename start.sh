@@ -2,7 +2,7 @@
 python3 server.py &
 
 while true; do
- ffmpeg -re -stream_loop -1 -i streadd.mp4 \
+ ffmpeg -re -stream_loop -1 -i streadj.mp4 \
 -c:v libx264 -preset superfast -g 60 -keyint_min 60 \
 -b:v 800k -maxrate 800k -bufsize 1600k \
 -vf "scale=720:1280:flags=lanczos" \
