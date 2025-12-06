@@ -8,5 +8,5 @@ while true; do
 -vf "scale=720:1280:flags=lanczos" \
 -pix_fmt yuv420p -profile:v high -level 4.0 \
 -c:a aac -ar 44100 -b:a 128k -ac 2 \
--f flv rtmp://a.rtmp.youtube.com/live2/mmgs-zdwg-mj6p-7ajh-arq2
+-f flv rtmp://a.rtmp.youtube.com/live2/eqxa-djk3-cc2d-gsat-453z
 done
